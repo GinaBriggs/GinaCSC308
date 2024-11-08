@@ -18,7 +18,7 @@ int main(){
 
             printf("Next four characters in multiples of 3:\n");
             for (int i = 1; i <= 4; i++) {
-                printf("Character: %c, ASCII Code: %d\n", ch + i * 3, ch + i * 3);
+                printf("Character: %c, ASCII Code: %d\n", c + i * 3, c + i * 3);
             }
             printf("Size of char type: %lu bytes\n", sizeof(char));
             break;
@@ -40,13 +40,13 @@ int main(){
 
         case '3': {
             // For integer input
-            int n;
+            int in;
             printf("Insert an integer: ");
-            scanf("%d", &n);
+            scanf("%d", &in);
 
             printf("Next four integers in multiples of 3:\n");
             for (int i = 1; i <= 4; i++) {
-                printf("Integer: %d\n", n + i * 3);
+                printf("Integer: %d\n", in + i * 3);
             }
             printf("Size of int type: %lu bytes\n", sizeof(int));
             break;
