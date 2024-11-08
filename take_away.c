@@ -10,7 +10,7 @@ int main(){
    the Operator.*/
 
    switch (option) {
-        case '1': {
+        case 1: {
             // For character input
             char c;
             printf("Insert a character: ");
@@ -24,7 +24,7 @@ int main(){
             break;
         }
 
-        case '2': {
+        case 2: {
             // For float input
             float f;
             printf("Insert a float: ");
@@ -38,7 +38,7 @@ int main(){
             break;
         }
 
-        case '3': {
+        case 3: {
             // For integer input
             int in;
             printf("Insert an integer: ");
