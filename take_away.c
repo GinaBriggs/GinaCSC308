@@ -9,7 +9,7 @@ int main(){
     /*Using C Switch statement print the ASCII code and the size of
    the Operator.*/
 
-   switch (inputType) {
+   switch (option) {
         case '1': {
             // For character input
             char c;
